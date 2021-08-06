@@ -1,5 +1,5 @@
 import * as express from 'express';
-import { Message } from '@nxstrap/api-interfaces';
+import { Message } from '@watheia/now.model';
 
 const app = express();
 

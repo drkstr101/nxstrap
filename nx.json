@@ -1,7 +1,7 @@
 {
   "npmScope": "nxstrap",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "main"
   },
   "implicitDependencies": {
     "package.json": {
@@ -44,6 +44,9 @@
       "implicitDependencies": ["starter"]
     },
     "theme": {
+      "tags": []
+    },
+    "views": {
       "tags": []
     }
   }

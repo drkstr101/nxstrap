@@ -9,5 +9,11 @@
  */
 
 {
+    "pages/hybrid-homepage": {
+        "scope": "watheia.content",
+        "version": "0.0.6",
+        "mainFile": "index.ts",
+        "rootDir": "libs/views/src/pages/hybrid-homepage"
+    },
     "$schema-version": "14.9.0"
 }

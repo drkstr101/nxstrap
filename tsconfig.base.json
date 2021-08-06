@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nxstrap/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@watheia/now.model": ["libs/api-interfaces/src/index.ts"],
+      "@watheia/now.views": ["libs/views/src/index.ts"],
       "@watheia/theme": ["libs/theme/src/index.ts"]
     }
   },
