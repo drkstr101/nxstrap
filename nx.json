@@ -1,0 +1,50 @@
+{
+  "npmScope": "nxstrap",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "Mjc4NDBkNGEtYjY0OC00OTgxLTgxN2QtMDA3MmI3NzMzZmRjfHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
+      }
+    }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "projects": {
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    },
+    "starter": {
+      "tags": []
+    },
+    "starter-e2e": {
+      "tags": [],
+      "implicitDependencies": ["starter"]
+    },
+    "theme": {
+      "tags": []
+    }
+  }
+}

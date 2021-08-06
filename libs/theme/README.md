@@ -1,0 +1,3 @@
+# theme
+
+Static shared theme
