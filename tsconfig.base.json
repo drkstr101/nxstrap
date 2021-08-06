@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@watheia/now.model": ["libs/api-interfaces/src/index.ts"],
+      "@watheia/now.pages.*": ["libs/views/src/pages/*"],
       "@watheia/now.views": ["libs/views/src/index.ts"],
       "@watheia/theme": ["libs/theme/src/index.ts"]
     }

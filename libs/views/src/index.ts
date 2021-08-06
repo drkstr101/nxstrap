@@ -1,2 +1,8 @@
-export { HomePage } from './pages/home-page/home-page';
-export type { HomePageProps } from './pages/home-page/home-page';
+export * from "./pages/presentation"
+export * from "./pages/signup-page"
+export * from "./pages/login-page"
+export * from "./pages/contact-us"
+export * from "./pages/blog-posts"
+export * from "./pages/about-us"
+export * from "./pages/case-studies"
+export * from "./pages/home-page"

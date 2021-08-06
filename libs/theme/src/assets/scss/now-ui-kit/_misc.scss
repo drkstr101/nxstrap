@@ -17,7 +17,7 @@ body {
 .navbar,
 .nav-tabs .nav-link,
 .tag,
-.tag [data-role='remove'] {
+.tag [data-role="remove"] {
   @include transition($general-transition-time, $transition-ease);
 }
 
@@ -28,16 +28,12 @@ body {
 }
 
 .dropdown-toggle:after,
-[data-toggle='collapse'][data-parent='#accordion'] i {
-  @include transition-on-prop(
-    transform,
-    $fast-transition-time,
-    $transition-ease
-  );
+[data-toggle="collapse"][data-parent="#accordion"] i {
+  @include transition-on-prop(transform, $fast-transition-time, $transition-ease);
 }
 
-.dropdown-toggle[aria-expanded='true']:after,
-[data-toggle='collapse'][data-parent='#accordion'][aria-expanded='true'] i {
+.dropdown-toggle[aria-expanded="true"]:after,
+[data-toggle="collapse"][data-parent="#accordion"][aria-expanded="true"] i {
   @include rotate-180();
 }
 

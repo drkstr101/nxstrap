@@ -11,8 +11,8 @@
   border-radius: 4px;
   direction: ltr;
   @include transform-translate-y(-40px);
-  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s,
-    opacity 0.3s ease 0s, height 0s linear 0.35s;
+  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s, opacity 0.3s ease 0s,
+    height 0s linear 0.35s;
 
   @include opacity(0);
   visibility: hidden;
@@ -45,7 +45,7 @@
   left: 0;
 }
 .datepicker-dropdown:before {
-  content: '';
+  content: "";
   display: inline-block;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
@@ -55,7 +55,7 @@
   position: absolute;
 }
 .datepicker-dropdown:after {
-  content: '';
+  content: "";
   display: inline-block;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
@@ -165,13 +165,7 @@
   background-color: #fde19a;
   background-image: -moz-linear-gradient(to bottom, #fdd49a, #fdf59a);
   background-image: -ms-linear-gradient(to bottom, #fdd49a, #fdf59a);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#fdd49a),
-    to(#fdf59a)
-  );
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdd49a), to(#fdf59a));
   background-image: -webkit-linear-gradient(to bottom, #fdd49a, #fdf59a);
   background-image: -o-linear-gradient(to bottom, #fdd49a, #fdf59a);
   background-image: linear-gradient(to bottom, #fdd49a, #fdf59a);
@@ -236,13 +230,7 @@
   background-color: #f3d17a;
   background-image: -moz-linear-gradient(to bottom, #f3c17a, #f3e97a);
   background-image: -ms-linear-gradient(to bottom, #f3c17a, #f3e97a);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#f3c17a),
-    to(#f3e97a)
-  );
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f3c17a), to(#f3e97a));
   background-image: -webkit-linear-gradient(to bottom, #f3c17a, #f3e97a);
   background-image: -o-linear-gradient(to bottom, #f3c17a, #f3e97a);
   background-image: linear-gradient(to bottom, #f3c17a, #f3e97a);
@@ -294,13 +282,7 @@
   background-color: #9e9e9e;
   background-image: -moz-linear-gradient(to bottom, #b3b3b3, #808080);
   background-image: -ms-linear-gradient(to bottom, #b3b3b3, #808080);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#b3b3b3),
-    to(#808080)
-  );
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b3b3b3), to(#808080));
   background-image: -webkit-linear-gradient(to bottom, #b3b3b3, #808080);
   background-image: -o-linear-gradient(to bottom, #b3b3b3, #808080);
   background-image: linear-gradient(to bottom, #b3b3b3, #808080);

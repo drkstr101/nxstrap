@@ -35,10 +35,10 @@
     color: $white-color;
   }
 
-  &[filter-color='orange'] {
+  &[filter-color="orange"] {
     @include linear-gradient(rgba($black-color, 0.2), rgba(224, 23, 3, 0.6));
   }
-  &[filter-color='black'] {
+  &[filter-color="black"] {
     @include linear-gradient(rgba($black-color, 0.2), rgba(0, 0, 0, 0.7));
   }
 }

@@ -127,7 +127,7 @@ html.nucleo-icons-page-styles {
 .nucleo-icons-page-styles blockquote:after,
 .nucleo-icons-page-styles q:before,
 .nucleo-icons-page-styles q:after {
-  content: '';
+  content: "";
   content: none;
 }
 .nucleo-icons-page-styles table {
@@ -189,7 +189,7 @@ html.nucleo-icons-page-styles {
 }
 .nucleo-icons-page-styles ul::after {
   clear: both;
-  content: '';
+  content: "";
   display: table;
 }
 .nucleo-icons-page-styles ul li {
@@ -239,10 +239,10 @@ html.nucleo-icons-page-styles {
   margin-bottom: 8px;
 }
 .nucleo-icons-page-styles ul em::before {
-  content: '[';
+  content: "[";
 }
 .nucleo-icons-page-styles ul em::after {
-  content: ']';
+  content: "]";
 }
 .nucleo-icons-page-styles ul input {
   text-align: center;
@@ -369,7 +369,7 @@ html.nucleo-icons-page-styles {
 }
 .nucleo-icons-page-styles .cd-nav-trigger span::before,
 .nucleo-icons-page-styles .cd-nav-trigger span::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   background: inherit;
@@ -431,7 +431,7 @@ html.nucleo-icons-page-styles {
 }
 .nucleo-icons-page-styles .now-ui-icons {
   display: inline-block;
-  font: normal normal normal 32px/1 'Nucleo Outline';
+  font: normal normal normal 32px/1 "Nucleo Outline";
   speak: none;
   text-transform: none;
   -webkit-font-smoothing: antialiased;

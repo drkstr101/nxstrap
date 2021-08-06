@@ -58,7 +58,7 @@
     width: 0;
     height: 0;
     vertical-align: middle;
-    content: '';
+    content: "";
     top: -5px;
     left: 10px;
     right: auto;
@@ -89,12 +89,7 @@
   }
 
   &.dropdown-info {
-    @include dropdown-colors(
-      darken($info-color, 3%),
-      $opacity-8,
-      $white-color,
-      $opacity-2
-    );
+    @include dropdown-colors(darken($info-color, 3%), $opacity-8, $white-color, $opacity-2);
   }
 
   &.dropdown-danger {

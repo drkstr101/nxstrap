@@ -27,8 +27,7 @@
   -ms-user-select: none;
   user-select: none;
   vertical-align: middle;
-  -webkit-transition: border-color ease-in-out 0.15s,
-    box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   margin-right: 20px;
   background: rgba($black-color, 0.2);
@@ -132,8 +131,8 @@
 .bootstrap-switch .bootstrap-switch-handle-off {
   text-indent: 6px;
 }
-.bootstrap-switch input[type='radio'],
-.bootstrap-switch input[type='checkbox'] {
+.bootstrap-switch input[type="radio"],
+.bootstrap-switch input[type="checkbox"] {
   position: absolute !important;
   top: 0;
   left: 0;
@@ -141,8 +140,8 @@
   filter: alpha(opacity=0);
   z-index: -1;
 }
-.bootstrap-switch input[type='radio'].form-control,
-.bootstrap-switch input[type='checkbox'].form-control {
+.bootstrap-switch input[type="radio"].form-control,
+.bootstrap-switch input[type="checkbox"].form-control {
   height: auto;
 }
 .bootstrap-switch.bootstrap-switch-mini .bootstrap-switch-handle-on,
@@ -231,33 +230,23 @@
   }
 }
 
-.bootstrap-switch.bootstrap-switch-on
-  .bootstrap-switch-red
-  ~ .bootstrap-switch-default {
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-red ~ .bootstrap-switch-default {
   background-color: $brand-danger;
 }
 
-.bootstrap-switch.bootstrap-switch-on
-  .bootstrap-switch-orange
-  ~ .bootstrap-switch-default {
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-orange ~ .bootstrap-switch-default {
   background-color: $brand-warning;
 }
 
-.bootstrap-switch.bootstrap-switch-on
-  .bootstrap-switch-green
-  ~ .bootstrap-switch-default {
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-green ~ .bootstrap-switch-default {
   background-color: $brand-success;
 }
 
-.bootstrap-switch.bootstrap-switch-on
-  .bootstrap-switch-brown
-  ~ .bootstrap-switch-default {
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-brown ~ .bootstrap-switch-default {
   background-color: $brand-primary;
 }
 
-.bootstrap-switch.bootstrap-switch-on
-  .bootstrap-switch-blue
-  ~ .bootstrap-switch-default {
+.bootstrap-switch.bootstrap-switch-on .bootstrap-switch-blue ~ .bootstrap-switch-default {
   background-color: $brand-info;
 }
 

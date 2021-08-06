@@ -1,11 +1,28 @@
-import React, { useEffect, useState } from 'react';
-import { Message } from '@watheia/now.model';
-import { HomePage } from '@watheia/now.views';
+import React from "react"
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom"
+import AboutUs from "@watheia/now.pages.about-us"
+import BlogPosts from "@watheia/now.pages.blog-posts"
+import ContactUs from "@watheia/now.pages.contact-us"
+import HomePage from "@watheia/now.pages.home-page"
+import LoginPage from "@watheia/now.pages.login-page"
+import SignupPage from "@watheia/now.pages.signup-page"
+import Presentation from "@watheia/now.pages.presentation"
 
-import { Route, Link } from 'react-router-dom';
+export function App() {
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={HomePage} />
+        <Route path="/presentation" component={Presentation} />
+        <Route path="/about" component={AboutUs} />
+        <Route path="/blog" component={BlogPosts} />
+        <Route path="/support" component={ContactUs} />
+        <Route path="/login" component={LoginPage} />
+        <Route path="/register" component={SignupPage} />
+        <Redirect to="/" />
+      </Switch>
+    </BrowserRouter>
+  )
+}
 
-export const App = () => {
-  return <HomePage />;
-};
-
-export default App;
+export default App

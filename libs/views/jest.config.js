@@ -1,9 +1,9 @@
 module.exports = {
-  displayName: 'views',
-  preset: '../../jest.preset.js',
+  displayName: "views",
+  preset: "../../jest.preset.js",
   transform: {
-    '^.+\\.[tj]sx?$': 'babel-jest',
+    "^.+\\.[tj]sx?$": "babel-jest"
   },
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/views',
-};
+  moduleFileExtensions: ["ts", "tsx", "js", "jsx"],
+  coverageDirectory: "../../coverage/libs/views"
+}

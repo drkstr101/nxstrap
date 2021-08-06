@@ -80,11 +80,11 @@
   padding: 180px 0;
 }
 
-.presentation-page .section-icons [class*='col-']:nth-child(2) {
+.presentation-page .section-icons [class*="col-"]:nth-child(2) {
   padding: 0 70px;
 }
 
-.presentation-page .section-icons[data-background-color='black'] {
+.presentation-page .section-icons[data-background-color="black"] {
   background-color: #777777;
 }
 
@@ -386,10 +386,7 @@
   position: relative;
 }
 
-.presentation-page
-  .section-basic-components
-  .image-container
-  .components-macbook {
+.presentation-page .section-basic-components .image-container .components-macbook {
   width: auto;
   left: 100px;
   top: 0;
@@ -399,22 +396,13 @@
 
 .presentation-page .section-basic-components .image-container .table-img,
 .presentation-page .section-basic-components .image-container .share-btn-img,
-.presentation-page
-  .section-basic-components
-  .image-container
-  .coloured-card-btn-img,
-.presentation-page
-  .section-basic-components
-  .image-container
-  .coloured-card-img,
+.presentation-page .section-basic-components .image-container .coloured-card-btn-img,
+.presentation-page .section-basic-components .image-container .coloured-card-img,
 .presentation-page .section-basic-components .image-container .social-img,
-.presentation-page
-  .section-basic-components
-  .image-container
-  .linkedin-btn-img {
+.presentation-page .section-basic-components .image-container .linkedin-btn-img {
   position: absolute;
-  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
-    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12),
+    0 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
 
 .presentation-page .section-basic-components .image-container .table-img {
@@ -431,20 +419,14 @@
   border-radius: 10px;
 }
 
-.presentation-page
-  .section-basic-components
-  .image-container
-  .coloured-card-img {
+.presentation-page .section-basic-components .image-container .coloured-card-img {
   left: 50%;
   top: -11%;
   height: 102px;
   border-radius: 3px;
 }
 
-.presentation-page
-  .section-basic-components
-  .image-container
-  .coloured-card-btn-img {
+.presentation-page .section-basic-components .image-container .coloured-card-btn-img {
   left: -3%;
   top: 42%;
   height: 133px;
@@ -457,10 +439,7 @@
   height: 57px;
 }
 
-.presentation-page
-  .section-basic-components
-  .image-container
-  .linkedin-btn-img {
+.presentation-page .section-basic-components .image-container .linkedin-btn-img {
   left: 3%;
   top: -3%;
   height: 25px;
@@ -529,7 +508,7 @@
   padding-bottom: 0;
 }
 
-.presentation-page .section-testimonials[data-background-color='black'] {
+.presentation-page .section-testimonials[data-background-color="black"] {
   background: #181818;
 }
 
@@ -655,7 +634,7 @@
   font-size: 16.8em;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   z-index: 1;
   letter-spacing: -10px;
   text-align: center;
@@ -727,8 +706,8 @@
   z-index: 2;
 }
 
-.presentation-page [data-background-color='dark-red'],
-.index-page [data-background-color='dark-red'] {
+.presentation-page [data-background-color="dark-red"],
+.index-page [data-background-color="dark-red"] {
   background: #220c08;
 }
 
@@ -1464,10 +1443,7 @@
     height: 425px;
     margin-top: 100px;
   }
-  .presentation-page
-    .section-basic-components
-    .image-container
-    .components-macbook {
+  .presentation-page .section-basic-components .image-container .components-macbook {
     width: 100%;
     height: 100%;
     position: relative;
